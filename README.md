@@ -2,20 +2,20 @@
 **Data generator** used for create csv files. User can specify number of columns and rows, type of data, headers name, etc...
 ## setup
 >go to data_generator directory
-```sh
+```
 $ cd <path to data_generator directory>
 ```
 >activate virtual environment
-```sh
+```
 $ source venv/bin/activate
 ```
 >run `main.py` file 
-```sh
+```
 (venv)$ python main.py
 ```
 ## options
 ***COMMON***
-```sh
+```
 [id] - unique number
 [number,100,1000] - random number /ex. from 100 to 1000/
 [string,10,20] - random string /ex. 10 to 20 characters/
@@ -31,7 +31,7 @@ $ source venv/bin/activate
 [food_group] - random group of food /ex. vegetables/
 ```
 ***PERSON***
-```sh
+```
 [gender] - /male or female/
 [name] - random first name and last name as one string /ex. Michelle Gibson/
 [fname_male] - random first male name
@@ -47,7 +47,7 @@ $ source venv/bin/activate
 [education] - random education /ex. Bachelors degree/
 ```
  ***ADDRESS*** 
- ```sh
+ ```
  [country] - random country 
  [state] - random state 
  [city] - random city 
