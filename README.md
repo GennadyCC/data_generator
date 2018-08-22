@@ -12,6 +12,7 @@
 
 ## options
 ***COMMON***
+```sh
 [`id`] - unique number
 [`number,100,1000`] - random number /ex. *from 100 to 1000*/
 [`string,10,20`] - random string /ex. *10 to 20 characters*/
@@ -25,8 +26,9 @@
 [`bool`] - random boolean /*True* or *False*/
 [`special_char,5`] - random set of special characters /number/
 [`food_group`] - random group of food /ex. *vegetables*/
-
+```
 ***PERSON***
+```sh
 [`gender`] - /male or female/
 [`name`] - random first name and last name as one string /ex. *Michelle Gibson*/
 [`fname_male`] - random first male name
@@ -40,13 +42,14 @@
 [`ssn`] - random ssn number
 [`url`] - random URL
 [`education`] - random education /ex. *Bachelors degree*/
-
+```
  ***ADDRESS*** 
+ ```sh
  [`country`] - random country 
  [`state`] - random state 
  [`city`] - random city 
  [`zipcode`] - random zipcode
  [`street`] - random street address /ex. *52555 Pamela Rue Apt. 160*/
-
+ ```
 ## output
 File `output.csv` is created in  `data_generator` directory
