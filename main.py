@@ -132,7 +132,7 @@ def input_delimeter():
     global delimeter
     delimeter = str(raw_input('''
 =========================================================================================
-|Provide delimeter for csv fale                                                         |
+|Provide delimiter for csv fale                                                         |
 |options: [ , ][ ; ][ : ]                                                               |
 =========================================================================================
 >>> : '''))
@@ -251,8 +251,7 @@ def main():
     print('File '+ fileName + ' was created')
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
+    main()
 
-main()
-
-
+    
