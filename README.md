@@ -13,9 +13,9 @@
 ## options
 ***COMMON***
 ```sh
-[`id`] - unique number
-[`number,100,1000`] - random number /ex. *from 100 to 1000*/
-[`string,10,20`] - random string /ex. *10 to 20 characters*/
+[id] - unique number
+[number,100,1000] - random number /ex. from 100 to 1000/
+[string,10,20] - random string /ex. 10 to 20 characters/
 [`float,2,5`] - random float number /min, max/
 [`word`] - random word
 [`sentence,3`] - random sentence with 3 words
