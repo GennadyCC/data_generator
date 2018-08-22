@@ -2,14 +2,17 @@
 **Data generator** used for create csv files. User can specify number of columns and rows, type of data, headers name, etc...
 ## setup
 >go to data_generator directory
-`$ cd <path to data_generator directory>`
-
+```sh
+$ cd <path to data_generator directory>
+```
 >activate virtual environment
-`$ source venv/bin/activate`
-
+```sh
+$ source venv/bin/activate
+```
 >run `main.py` file 
-`(venv)$ python main.py`
-
+```sh
+(venv)$ python main.py
+```
 ## options
 ***COMMON***
 ```sh
