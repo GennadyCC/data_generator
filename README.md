@@ -13,7 +13,7 @@ $ source venv/bin/activate
 ```
 (venv)$ python main.py
 ```
-## options
+## data type
 ***COMMON***
 ```
 [id] - unique number
