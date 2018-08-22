@@ -13,18 +13,18 @@
 ## options
 ***COMMON***
 >[`id`] - unique number
-[`number,100,1000`] - random number /ex. *from 100 to 1000*/
-[`string,10,20`] - random string /ex. *10 to 20 characters*/
-[`float,2,5`] - random float number /min, max/
-[`word`] - random word
-[`sentence,3`] - random sentence with 3 words
-[`color`] - random color /ex. *yellow*/
-[`timestamp,2015-01-01,2018-01-01`] - random timestamp between /ex. *2003-12-18 16:35:17*/
-[`date,2015-01-01,2018-01-01`] - random date between /ex. *2003-12-18*/
-[`time`] - random time
-[`bool`] - random boolean /*True* or *False*/
-[`special_char,5`] - random set of special characters /number/
-[`food_group`] - random group of food /ex. *vegetables*/
+>[`number,100,1000`] - random number /ex. *from 100 to 1000*/
+>[`string,10,20`] - random string /ex. *10 to 20 characters*/
+>[`float,2,5`] - random float number /min, max/
+>[`word`] - random word
+>[`sentence,3`] - random sentence with 3 words
+>[`color`] - random color /ex. *yellow*/
+>[`timestamp,2015-01-01,2018-01-01`] - random timestamp between /ex. *2003-12-18 16:35:17*/
+>[`date,2015-01-01,2018-01-01`] - random date between /ex. *2003-12-18*/
+>[`time`] - random time
+>[`bool`] - random boolean /*True* or *False*/
+>[`special_char,5`] - random set of special characters /number/
+>[`food_group`] - random group of food /ex. *vegetables*/
 
 ***PERSON***
 >[`gender`] - /male or female/
